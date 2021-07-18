@@ -1,0 +1,233 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(140deg,#6e5010,#1e0627);
+}
+ul{
+    list-style: none;
+    background-color: #222;
+    margin: 0;
+}
+li{
+    display: inline-block;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 0.7cm;
+    color: #666;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+li:hover{
+    background-color: black;
+    color: white;
+}
+#logo{
+    width: 100px;
+    height: 120px;
+    margin-top: 60px;
+    border-radius: 2000px;
+}
+#branding{
+    position: absolute;
+    color: #666;
+    font-size: 2cm;
+}
+.section1{
+    position: fixed;
+    width: 100%;
+    margin-top: -100px;
+}
+#wild-life{
+    text-align: center;
+    width: 900px;
+    font-size: 1cm;
+    margin: auto;
+    padding: 100px;
+    background-image: url(https://tunza.eco-generation.org/file/desktop-hd-images-of-african-animals.jpg);
+    color: whitesmoke;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+
+
+}
+.section2{
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+
+.section3{
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+#wlf-heading{
+    background-color:rgba(0,0,0,0.6);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 25px;
+}
+#wlf-desc{
+    background-color: rgba(0,0,0,0.4);
+    border-radius: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 60px;
+}
+
+
+#wlf-heading:hover{
+    background-color: rgba(102,102,102,0.658);
+    color: rgba(0,0,0,0.6);
+}
+#wlf-desc:hover{
+    background-color: rgba(102,102,102,0.603);
+    color: rgba(0,0,0,0.6);
+}
+#home{
+    text-align: center;
+    background-color: #222;
+    color: #666;
+    padding: 10px;
+    font-size: 1cm;
+
+}
+#bord{
+    padding: px;
+    border-left: solid;
+    border-right: solid;
+    border-top: transparent;
+    border-bottom: transparent;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+footer{
+    background-color: chartreuse;
+}
+ a{ 
+    text-decoration: none;
+Color:#666
+}
+
+
+#a1,#a2,#a3,#a4{
+    display: inline-block;
+}
+
+
+
+
+#img1,#img2,#img3,#img4{
+    width: 80px;
+    height: 60px;
+    margin: 20px;
+}
+#img1:hover,#img2:hover,#img3:hover,#img4:hover{
+    width: 80px;
+    height: 50px;
+    margin: 25px;
+    cursor: pointer;
+}
+
+.section3{
+    text-align: center;
+    font-size: 1cm;
+    margin: auto;
+    background: linear-gradient(140deg,#6e5010,#1e0627);
+    padding-top: 10px;
+    width: 100%;
+    border-radius: 25px;
+}
+
+.section4{
+    text-align: center;
+    font-size: 1cm;
+    margin: auto;
+    background-color: #222;
+    padding-top: 10px;
+    width: 100%;
+    border-radius: 25px;
+}
+#about-us{
+    background-color: rgb(107, 21, 21);
+    padding: 8px;
+    margin-top: -10px;
+  
+
+}
+
+#about{
+    background-color: rgb(107, 21, 21);
+    padding: 8px;
+    margin-top: -10px;
+}
+
+.grid{
+    margin: 15px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    align-items: center;
+}
+
+.grid > article{
+    background: cornsilk;
+    border: none;
+    box-shadow: 7px 7px 10px 0px rgb(58, 2, 49);
+    border-radius: 50px;
+    text-align: center;
+    width: 100%;
+   
+ 
+    
+}
+
+.grid > article img{
+
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-radius: 50px;
+    
+}
+
+
+
+.text{
+    padding: 0 20px 20px;
+    font-size: 10px;
+}
+
+.text h3{
+    text-transform: uppercase;
+}
+
+.text button{
+    background: chocolate;
+    border-radius: 20px;
+    border: navajowhite;
+    color: rgb(17, 17, 1);
+    padding: 10px;
+    width: 100%;
+    font-weight: 500;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+@media (max-width:768px){
+    .grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width:500px){
+    .grid{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .grid > article{
+        text-align: center;
+    }
+}

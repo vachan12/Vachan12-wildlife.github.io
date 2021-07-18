@@ -1,0 +1,62 @@
+img{
+    height:300px;
+    width : 500px;
+    padding-left: 5cm;
+    border-radius: 50px;
+}
+table{
+    
+    align-content: center;
+    border : 10px solid black;
+    border-spacing: 15mm;
+    border-radius: 9mm;
+    box-shadow: chartreuse;
+    width: 1500px;
+   
+
+}
+
+
+td{
+    background-image: url(https://thumbs.dreamstime.com/b/deep-jungle-southeast-asia-dense-vegetation-southeast-asian-deep-jungle-128947163.jpg);
+    padding : 3mm;
+    font-size: 50px;
+    font-style: oblique;
+    font-weight: 500;
+    color: cornsilk;
+    
+    
+}
+td:hover{
+    background-color: rgb(48, 34, 6);
+    color: white;
+
+}
+th{
+    border:rgb(27, 16, 2);
+    border-style: ridge;
+    font-size: 40px;
+    font-style: oblique;
+}
+
+th:hover {
+    background-color:rgb(48, 34, 6) ;
+    color: white;
+}
+h1{
+    font-size: 45px;
+    font-family: 'Arial Narrow Bold';
+    position : center;
+    font-weight: 500;
+    padding-left: 18cm;
+
+
+}
+.center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+body{
+        background: linear-gradient(165deg,#0d1d0b,#8ad1a2,#294725);
+}

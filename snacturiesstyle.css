@@ -1,0 +1,26 @@
+body{
+   
+    background-color :rgb(143, 209, 89);
+    background-image: url("https://wallpapercave.com/wp/wp3585607.jpg");
+    height: auto;
+    max-width: fit-content;
+   
+}
+img {
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    padding: 50px;
+    width: 2500px;
+    height: 1200px;
+    position: absolute;
+}
+h1{ 
+    position: center;
+    font-family: 'Cambria';
+    font-size: largers;
+    color: darkred;
+
+}
+
+
+  
